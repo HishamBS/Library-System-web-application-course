@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Login Page</title>
+    <link rel="stylesheet" type="text/css" href="css/styles.css"/>
+    <script type="text/javaScript" src="js/site.js"></script>
+</head>
+<body>
+<div id="header">
+
+    <hr>
+    <img id="logo" src="images/logo.png">
+    <div id="regdiv"> 
+        
+  <fieldset id="reg">
+    <legend>Log in</legend>
+   <a href="login.html" ><input type="button" name="log in" value="log in" class="buttons"/></a>
+    <a href="registration.html" ><input type="button" name="sign up" value="sign up" class="buttons"/></a>
+    <a href="logout" ><input type="button" name="logout" value="logout" class="buttons"/></a>
+  </fieldset>
+       
+    </div>
+    <p id="header_bar"> <a href="index.html"> Home</a> | <a href="browse_books.html">Browse Books</a> | <a href="add_book.html">Add a Book</a>| <a href="feedback.html">Feedback</a> </p>
+
+</div>
+
+<div id="body">
+
+    <h1>Please fill in the fields in here :</h1>
+    <form method="post" action="login" id="login">
+        <table align="center">
+            <tr>
+                <td>User Name(your email) :</td>
+                <td><input id="email" type="text" name="user_name"  placeholder="enter your user name in here..." size="55"/></td>
+            </tr>
+            <tr>
+                <td>Password :</td>
+                <td><input id="password" type="password" name="password"  placeholder="enter your password in here..." size="55"/></td>
+            </tr>
+            
+            <tr><td></td>
+                <td id="buttons">
+                    <input type="submit" name="submit" value="login" class="buttons"/>
+                    <input type="reset" name="reset" value="reset" class="buttons"/>
+                </td>
+            </tr>
+        </table>
+    </form>
+    </br></br></br>
+
+
+
+
+</div>
+
+
+<div id="footer">
+    <p>All rights reserved to HBS , any misuse of the information available in the website will cause for legal action</p>
+</div>
+</body>
+</html>

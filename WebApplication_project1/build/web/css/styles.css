@@ -1,0 +1,166 @@
+#logo{
+    width: 200px;
+    height: 100px;
+}
+
+
+#header {
+    background-image: url("../images/header.jpg");
+}
+
+#header_bar{text-align: center;
+            margin-top: 0px;
+            font-weight: bold;
+            font-size: x-large;
+            color: white;
+            background:grey;
+
+
+            }
+#reg{
+    text-align: right;
+    border-width:6px;
+    display :inline-block;
+    background: grey;
+    font-weight: bold;
+
+
+            }
+            legend {
+                color: red;
+                font-weight: bold;
+                text-align: center;
+            }          
+#header_bar a:hover{
+    background: gold;
+
+}
+a:visited {
+    color: inherit;
+}
+
+body{
+    background-image: url("../images/bg.jpg");
+}
+#body{
+    text-align: center;
+    border-radius: 35px;
+    background: lightgray;
+    opacity: .8;
+    border-color: black;
+}
+
+#add_books td{
+    align: center;
+    font-weight: bold;
+    color: darkblue;
+
+}
+#add_books input{
+    alignment: center;
+    margin: 35px;
+    font-weight: bold;
+    color: black;
+    margin-left: 10px;
+}
+#registration td{
+    align: center;
+    font-weight: bold;
+    color: darkblue;
+
+}
+#registration input{
+    alignment: center;
+    margin: 35px;
+    font-weight: bold;
+    color: black;
+    margin-left: 10px;
+    
+}
+#registration td{
+    align: center;
+    font-weight: bold;
+    color: darkblue;
+
+}
+#registration input{
+    alignment: center;
+    margin: 35px;
+    font-weight: bold;
+    color: black;
+    margin-left: 10px;
+    
+}
+#feedback td{
+    align: center;
+    font-weight: bold;
+    color: darkblue;
+
+}
+#feedback input{
+    alignment: center;
+    margin: 24px;
+    font-weight: bold;
+    color: black;
+    margin-left: 10px;
+}
+
+#login td{
+    align: center;
+    font-weight: bold;
+    color: darkblue;
+
+}
+#login input{
+    alignment: center;
+    margin: 24px;
+    font-weight: bold;
+    color: black;
+    margin-left: 10px;
+}
+
+#message_area {
+    margin-left: -12px;
+}
+#buttons{
+    padding-right: 200px;
+
+}
+.buttons{
+    height: 30px;
+    width: 100px;
+
+}
+#body h1{
+    color: darkblue;
+}
+#body p{
+    color: darkblue;
+    font-weight: bold;
+
+}
+
+#footer{
+    text-align: center;
+    position: absolute;
+    font-weight: bold;
+    font-size: medium;
+    color: white;
+    background:grey;
+    padding: -5px;
+    left: 0;
+    bottom: 0;
+    right: 0;
+
+}
+
+.gen {
+     text-align: center;
+    border-radius: 35px;
+    background: lightgray;
+    opacity: .8;
+    border-color: black;
+    color: darkblue;
+    font-weight: bold;
+}
+

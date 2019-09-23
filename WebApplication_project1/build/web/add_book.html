@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Adding Books</title>
+    <link rel="stylesheet" type="text/css" href="css/styles.css"/>
+    <script type="text/javaScript" src="js/site.js"></script>
+</head>
+<body>
+<div id="header">
+
+    <hr>
+    <img id="logo" src="images/logo.png">
+    <div id="regdiv"> 
+        
+  <fieldset id="reg">
+    <legend>Log in</legend>
+    <a href="login.html" ><input type="button" name="log in" value="log in" class="buttons"/></a>
+    <a href="registration.html" ><input type="button" name="sign up" value="sign up" class="buttons"/></a>
+    <a href="logout" ><input type="button" name="logout" value="logout" class="buttons"/></a>
+  </fieldset>
+        
+    </div>
+    <p id="header_bar"> <a href="index.html"> Home</a> | <a href="browse_books.html">Browse Books</a> | <a href="add_book.html">Add a Book</a>| <a href="feedback.html">Feedback</a> </p>
+
+</div>
+
+<div id="body">
+
+    <h1>Here you can add the book you want , just fill in the fields</h1>
+    <form method="post" action="add_books" id="add_books" onsubmit="return isEmpty()">
+        <table align="center">
+            <tr>
+                <td>Book Number :</td>
+                <td><input id="bn" type="text" name="book_number"  placeholder="enter your book number in here..." size="55"/></td>
+            </tr>
+            <tr>
+                <td>Book Title :</td>
+                <td><input id="bt" type="text" name="book_title"  placeholder="enter your book title in here..." size="55"/></td>
+            </tr>
+            <tr>
+                <td>Book Version :</td>
+                <td><input id="bv" type="text" name="book_version"  placeholder="enter your book version in here..." size="55"/></td>
+            </tr>
+            <tr>
+                <td>Book Year :</td>
+                <td><input id="by" type="text" name="book_year"  placeholder="enter your book year in here..." size="55"/></td>
+            </tr>
+            <tr>
+                <td>Book Author/s :</td>
+                <td><input id="ba" type="text" name="book_author"  placeholder="enter your book authors in here..." size="55"/></td>
+            </tr>
+            <tr><td></td>
+                <td id="buttons">
+                    <input type="submit" name="submit" value="submit" class="buttons"/>
+                    <input type="reset" name="reset" value="reset" class="buttons"/>
+                </td>
+            </tr>
+        </table>
+    </form>
+    </br></br></br>
+
+
+
+
+</div>
+
+
+<div id="footer">
+    <p>All rights reserved to HBS , any misuse of the information available in the website will cause for legal action</p>
+</div>
+</body>
+</html>

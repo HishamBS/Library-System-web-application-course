@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Feedback</title>
+    <link rel="stylesheet" type="text/css" href="css/styles.css"/>
+      <script type="text/javaScript" src="js/site.js"></script>
+</head>
+<body>
+<div id="header">
+
+    <hr>
+    <img id="logo" src="images/logo.png">
+    <div id="regdiv"> 
+        
+  <fieldset id="reg">
+    <legend>Log in</legend>
+    <a href="login.html" ><input type="button" name="log in" value="log in" class="buttons"/></a>
+    <a href="registration.html" ><input type="button" name="sign up" value="sign up" class="buttons"/></a>
+    <a href="logout" ><input type="button" name="logout" value="logout" class="buttons"/></a>
+  </fieldset>
+       
+    </div>
+    <p id="header_bar"> <a href="index.html"> Home</a> | <a href="browse_books.html">Browse Books</a> | <a href="add_book.html">Add a Book</a>| <a href="feedback.html">Feedback</a> </p>
+
+</div>
+
+<div id="body">
+
+    <h1>Here you can write us your feedback ,, your opinion matter to us</h1>
+    <form method="post" action="feedback" id="feedback" onsubmit="return isEmpty2()">
+        <table align="center">
+            <tr>
+                <td>ID* :</td>
+                <td><input id="id" type="text" name="id"  placeholder="enter your ID in here..." size="55"/></td>
+            </tr>
+            <tr>
+                <td>Name* :</td>
+                <td><input id="name" type="text" name="name"  placeholder="enter your name in here..." size="55"/></td>
+            </tr>
+            <tr>
+                <td>Phone Number :</td>
+                <td><input id="pn" type="text" name="phone"  placeholder="enter your phone number in here..." size="55"/></td>
+            </tr>
+            <tr>
+                <td>Email* :</td>
+                <td><input id="email" type="text" name="email"  placeholder="enter your email in here..." size="55"/></td>
+            </tr>
+            <tr>
+                <td>Subject* :</td>
+                <td><input id="sub" type="text" name="subject"  placeholder="enter your subject in here..." size="55"/></td>
+            </tr>
+            <tr>
+                <td>Type :</td>
+                <td><input id="type" type="text" name="type"  placeholder="enter your type in here..." size="55"/></td>
+            </tr>
+            <tr>
+                <td>Your message* :</td>
+                <td><textarea  name="message" rows="6" cols="57" id="message_area">type your message in here...
+                </textarea> </td>
+            </tr>
+            <tr><td></td>
+                <td id="buttons">
+                    <input type="submit" name="submit" value="submit" class="buttons"/>
+                    <input type="reset" name="reset" value="reset" class="buttons"/>
+                </td>
+            </tr>
+        </table>
+    </form>
+
+
+
+
+
+
+
+
+
+</div>
+
+
+<div id="footer">
+    <p>All rights reserved to HBS , any misuse of the information available in the website will cause for legal action</p>
+</div>
+</body>
+</html>
